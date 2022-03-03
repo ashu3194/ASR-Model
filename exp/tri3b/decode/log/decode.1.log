@@ -1,0 +1,92 @@
+# gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri1/graph/words.txt exp/tri1/final.mdl exp/tri1/graph/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:|gzip -c > exp/tri1/decode/lat.1.gz" 
+# Started at Sat May  8 19:19:09 IST 2021
+#
+gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri1/graph/words.txt exp/tri1/final.mdl exp/tri1/graph/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:|gzip -c > exp/tri1/decode/lat.1.gz' 
+add-deltas ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- 
+w01 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance w01 is -8.63269 over 290 frames.
+w02 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance w02 is -8.762 over 267 frames.
+w03 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance w03 is -8.75491 over 276 frames.
+w04 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance w04 is -8.86885 over 265 frames.
+w05 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance w05 is -8.63844 over 266 frames.
+w06 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance w06 is -8.93083 over 335 frames.
+w07 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance w07 is -8.63499 over 390 frames.
+w08 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance w08 is -8.78747 over 341 frames.
+w09 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance w09 is -8.6576 over 424 frames.
+w10 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance w10 is -8.4382 over 499 frames.
+x01 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance x01 is -8.40116 over 461 frames.
+x02 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance x02 is -8.69217 over 370 frames.
+x03 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance x03 is -8.26084 over 435 frames.
+x04 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance x04 is -8.19524 over 383 frames.
+x05 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance x05 is -7.89759 over 409 frames.
+x06 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance x06 is -7.69941 over 562 frames.
+x07 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance x07 is -7.97578 over 519 frames.
+x08 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance x08 is -8.11075 over 477 frames.
+x09 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance x09 is -8.29519 over 500 frames.
+x10 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance x10 is -8.1401 over 536 frames.
+y01 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance y01 is -8.4017 over 230 frames.
+y02 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance y02 is -8.23358 over 220 frames.
+y03 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance y03 is -8.33915 over 227 frames.
+y04 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance y04 is -8.46515 over 208 frames.
+y05 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance y05 is -8.47315 over 189 frames.
+y06 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance y06 is -7.98965 over 362 frames.
+y07 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance y07 is -8.49926 over 247 frames.
+y08 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance y08 is -8.50346 over 246 frames.
+y09 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance y09 is -8.64757 over 258 frames.
+y10 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance y10 is -8.41131 over 251 frames.
+z01 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance z01 is -8.91881 over 476 frames.
+z02 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance z02 is -8.96857 over 385 frames.
+z03 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance z03 is -8.97485 over 374 frames.
+z04 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance z04 is -8.74544 over 340 frames.
+z05 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance z05 is -8.72948 over 322 frames.
+z06 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance z06 is -8.99176 over 432 frames.
+LOG (apply-cmvn[5.5.907~2-cbed4]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 40 utterances, errors on 0
+z07 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance z07 is -8.87443 over 442 frames.
+z08 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance z08 is -8.60704 over 400 frames.
+z09 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance z09 is -9.03105 over 458 frames.
+z10 
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance z10 is -9.04019 over 439 frames.
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:main():gmm-latgen-faster.cc:176) Time taken 0.561793s: real-time factor assuming 100 frames/sec is 0.0038715
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:main():gmm-latgen-faster.cc:179) Done 40 utterances, failed for 0
+LOG (gmm-latgen-faster[5.5.907~2-cbed4]:main():gmm-latgen-faster.cc:181) Overall log-likelihood per frame is -8.52186 over 14511 frames.
+# Accounting: time=1 threads=1
+# Ended (code 0) at Sat May  8 19:19:10 IST 2021, elapsed time 1 seconds

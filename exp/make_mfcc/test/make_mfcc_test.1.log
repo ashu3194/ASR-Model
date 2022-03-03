@@ -1,0 +1,53 @@
+# compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc/test/utt2dur.1 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/test/wav_test.1.scp ark:- | copy-feats --write-num-frames=ark,t:exp/make_mfcc/test/utt2num_frames.1 --compress=true ark:- ark,scp:/home/yash/Programming/Kaldi/kaldi/egs/project1/mfcc/raw_mfcc_test.1.ark,/home/yash/Programming/Kaldi/kaldi/egs/project1/mfcc/raw_mfcc_test.1.scp 
+# Started at Sat May  8 19:17:10 IST 2021
+#
+copy-feats --write-num-frames=ark,t:exp/make_mfcc/test/utt2num_frames.1 --compress=true ark:- ark,scp:/home/yash/Programming/Kaldi/kaldi/egs/project1/mfcc/raw_mfcc_test.1.ark,/home/yash/Programming/Kaldi/kaldi/egs/project1/mfcc/raw_mfcc_test.1.scp 
+compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc/test/utt2dur.1 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/test/wav_test.1.scp ark:- 
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key w01
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key w02
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key w03
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key w04
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key w05
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key w06
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key w07
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key w08
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key w09
+LOG (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:181) Processed 10 utterances
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key w10
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key x01
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key x02
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key x03
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key x04
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key x05
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key x06
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key x07
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key x08
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key x09
+LOG (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:181) Processed 20 utterances
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key x10
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key y01
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key y02
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key y03
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key y04
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key y05
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key y06
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key y07
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key y08
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key y09
+LOG (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:181) Processed 30 utterances
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key y10
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key z01
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key z02
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key z03
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key z04
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key z05
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key z06
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key z07
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key z08
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key z09
+LOG (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:181) Processed 40 utterances
+VLOG[2] (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:182) Processed features for key z10
+LOG (compute-mfcc-feats[5.5.907~2-cbed4]:main():compute-mfcc-feats.cc:185)  Done 40 out of 40 utterances.
+LOG (copy-feats[5.5.907~2-cbed4]:main():copy-feats.cc:143) Copied 40 feature matrices.
+# Accounting: time=1 threads=1
+# Ended (code 0) at Sat May  8 19:17:11 IST 2021, elapsed time 1 seconds

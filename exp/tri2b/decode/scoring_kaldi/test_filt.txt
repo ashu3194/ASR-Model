@@ -1,0 +1,40 @@
+w01 zero one two three four five six seven eight nine
+w02 one three five seven nine zero six eight two
+w03 zero two four six eight five nine seven one
+w04 one five nine two four six zero seven
+w05 one three five six zero eight nine two
+w06 two three nine four two four five zero seven six eight
+w07 one three two four five three zero six nine eight seven
+w08 two three five four eight seven nine six one zero
+w09 nine eight seven six five four three two one zero seven one
+w10 three four one zero eight seven six four three five eight nine
+x01 zero one two three four five six seven eight nine
+x02 one three five seven nine zero six eight two
+x03 zero two four six eight five nine seven one
+x04 one five nine two four six zero seven
+x05 one three five six zero eight nine two
+x06 two three nine four two four five zero seven six eight
+x07 one three two four five three zero six nine eight seven
+x08 two three five four eight seven nine six one zero
+x09 nine eight seven six five four three two one zero seven one
+x10 three four one zero eight seven six four three five eight nine
+y01 zero one two three four five six seven eight nine
+y02 one three five seven nine zero six eight two
+y03 zero two four six eight five nine seven one
+y04 one five nine two four six zero seven
+y05 one three five six zero eight nine two
+y06 two three nine four two four five zero seven six eight
+y07 one three two four five three zero six nine eight seven
+y08 two three five four eight seven nine six one zero
+y09 nine eight seven six five four three two one zero seven one
+y10 three four one zero eight seven six four three five eight nine
+z01 zero one two three four five six seven eight nine
+z02 one three five seven nine zero six eight two
+z03 zero two four six eight five nine seven one
+z04 one five nine two four six zero seven
+z05 one three five six zero eight nine two
+z06 two three nine four two four five zero seven six eight
+z07 one three two four five three zero six nine eight seven
+z08 two three five four eight seven nine six one zero
+z09 nine eight seven six five four three two one zero seven one
+z10 three four one zero eight seven six four three five eight nine

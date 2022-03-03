@@ -1,0 +1,160 @@
+w01 ref  zero  one  two  three  four  five  six  seven  eight  nine
+w01 hyp   ***  ***  ***   ***    ***   ***  ***   ***    ***    ***
+w01 op     D    D    D     D      D     D    D     D      D      D 
+w01 #csid 0 0 0 10
+w02 ref  one  three  five  seven  nine  zero  six  eight  two
+w02 hyp  ***   ***    ***   ***    ***   ***  ***   ***   ***
+w02 op    D     D      D     D      D     D    D     D     D 
+w02 #csid 0 0 0 9
+w03 ref  zero  two  four  six  eight  five  nine  seven  one
+w03 hyp   ***  ***   ***  ***   ***    ***   ***   ***   ***
+w03 op     D    D     D    D     D      D     D     D     D 
+w03 #csid 0 0 0 9
+w04 ref  one  five  nine  two  four  six  zero  seven
+w04 hyp  ***   ***   ***  ***   ***  ***   ***   *** 
+w04 op    D     D     D    D     D    D     D     D  
+w04 #csid 0 0 0 8
+w05 ref  one  three  five  six  zero  eight  nine  two
+w05 hyp  ***   ***    ***  ***   ***   ***    ***  ***
+w05 op    D     D      D    D     D     D      D    D 
+w05 #csid 0 0 0 8
+w06 ref  two  three  nine  four  two  four  five  zero  seven  six  eight
+w06 hyp  ***   ***    ***   ***  ***   ***   ***   ***   ***   ***   *** 
+w06 op    D     D      D     D    D     D     D     D     D     D     D  
+w06 #csid 0 0 0 11
+w07 ref  one  three  two  four  five  three  zero  six  nine  eight  seven
+w07 hyp  ***   ***   ***   ***   ***   ***    ***  ***   ***   ***    *** 
+w07 op    D     D     D     D     D     D      D    D     D     D      D  
+w07 #csid 0 0 0 11
+w08 ref  two  three  five  four  eight  seven  nine  six  one  zero
+w08 hyp  ***   ***    ***   ***   ***    ***    ***  ***  ***   ***
+w08 op    D     D      D     D     D      D      D    D    D     D 
+w08 #csid 0 0 0 10
+w09 ref  nine  eight  seven  six  five  four  three  two  one  zero  seven  one
+w09 hyp   ***   ***    ***   ***   ***   ***   ***   ***  ***   ***   ***   ***
+w09 op     D     D      D     D     D     D     D     D    D     D     D     D 
+w09 #csid 0 0 0 12
+w10 ref  three  four  one  zero  eight  seven  six  four  three  five  eight  nine
+w10 hyp   ***    ***  ***   ***   ***    ***   ***   ***   ***    ***   ***    ***
+w10 op     D      D    D     D     D      D     D     D     D      D     D      D 
+w10 #csid 0 0 0 12
+x01 ref  zero  one  two  three  four  five  six  seven  eight  nine
+x01 hyp   ***  ***  ***   ***    ***   ***  ***   ***    ***    ***
+x01 op     D    D    D     D      D     D    D     D      D      D 
+x01 #csid 0 0 0 10
+x02 ref  one  three  five  seven  nine  zero  six  eight  two
+x02 hyp  ***   ***    ***   ***    ***   ***  ***   ***   ***
+x02 op    D     D      D     D      D     D    D     D     D 
+x02 #csid 0 0 0 9
+x03 ref  zero  two  four  six  eight  five  nine  seven  one
+x03 hyp   ***  ***   ***  ***   ***    ***   ***   ***   ***
+x03 op     D    D     D    D     D      D     D     D     D 
+x03 #csid 0 0 0 9
+x04 ref  one  five  nine  two  four  six  zero  seven
+x04 hyp  ***   ***   ***  ***   ***  ***   ***   *** 
+x04 op    D     D     D    D     D    D     D     D  
+x04 #csid 0 0 0 8
+x05 ref  one  three  five  six  zero  eight  nine  two
+x05 hyp  ***   ***    ***  ***   ***   ***    ***  ***
+x05 op    D     D      D    D     D     D      D    D 
+x05 #csid 0 0 0 8
+x06 ref  two  three  nine  four  two  four  five  zero  seven  six  eight
+x06 hyp  ***   ***    ***   ***  ***   ***   ***   ***   ***   ***   *** 
+x06 op    D     D      D     D    D     D     D     D     D     D     D  
+x06 #csid 0 0 0 11
+x07 ref  one  three  two  four  five  three  zero  six  nine  eight  seven
+x07 hyp  ***   ***   ***   ***   ***   ***    ***  ***   ***   ***    *** 
+x07 op    D     D     D     D     D     D      D    D     D     D      D  
+x07 #csid 0 0 0 11
+x08 ref  two  three  five  four  eight  seven  nine  six  one  zero
+x08 hyp  ***   ***    ***   ***   ***    ***    ***  ***  ***   ***
+x08 op    D     D      D     D     D      D      D    D    D     D 
+x08 #csid 0 0 0 10
+x09 ref  nine  eight  seven  six  five  four  three  two  one  zero  seven  one
+x09 hyp   ***   ***    ***   ***   ***   ***   ***   ***  ***   ***   ***   ***
+x09 op     D     D      D     D     D     D     D     D    D     D     D     D 
+x09 #csid 0 0 0 12
+x10 ref  three  four  one  zero  eight  seven  six  four  three  five  eight  nine
+x10 hyp   ***    ***  ***   ***   ***    ***   ***   ***   ***    ***   ***    ***
+x10 op     D      D    D     D     D      D     D     D     D      D     D      D 
+x10 #csid 0 0 0 12
+y01 ref  zero  one  two  three  four  five  six  seven  eight  nine
+y01 hyp   ***  ***  ***   ***    ***   ***  ***   ***    ***    ***
+y01 op     D    D    D     D      D     D    D     D      D      D 
+y01 #csid 0 0 0 10
+y02 ref  one  three  five  seven  nine  zero  six  eight  two
+y02 hyp  ***   ***    ***   ***    ***   ***  ***   ***   ***
+y02 op    D     D      D     D      D     D    D     D     D 
+y02 #csid 0 0 0 9
+y03 ref  zero  two  four  six  eight  five  nine  seven  one
+y03 hyp   ***  ***   ***  ***   ***    ***   ***   ***   ***
+y03 op     D    D     D    D     D      D     D     D     D 
+y03 #csid 0 0 0 9
+y04 ref  one  five  nine  two  four  six  zero  seven
+y04 hyp  ***   ***   ***  ***   ***  ***   ***   *** 
+y04 op    D     D     D    D     D    D     D     D  
+y04 #csid 0 0 0 8
+y05 ref  one  three  five  six  zero  eight  nine  two
+y05 hyp  ***   ***    ***  ***   ***   ***    ***  ***
+y05 op    D     D      D    D     D     D      D    D 
+y05 #csid 0 0 0 8
+y06 ref  two  three  nine  four  two  four  five  zero  seven  six  eight
+y06 hyp  ***   ***    ***   ***  ***   ***   ***   ***   ***   ***   *** 
+y06 op    D     D      D     D    D     D     D     D     D     D     D  
+y06 #csid 0 0 0 11
+y07 ref  one  three  two  four  five  three  zero  six  nine  eight  seven
+y07 hyp  ***   ***   ***   ***   ***   ***    ***  ***   ***   ***    *** 
+y07 op    D     D     D     D     D     D      D    D     D     D      D  
+y07 #csid 0 0 0 11
+y08 ref  two  three  five  four  eight  seven  nine  six  one  zero
+y08 hyp  ***   ***    ***   ***   ***    ***    ***  ***  ***   ***
+y08 op    D     D      D     D     D      D      D    D    D     D 
+y08 #csid 0 0 0 10
+y09 ref  nine  eight  seven  six  five  four  three  two  one  zero  seven  one
+y09 hyp   ***   ***    ***   ***   ***   ***   ***   ***  ***   ***   ***   ***
+y09 op     D     D      D     D     D     D     D     D    D     D     D     D 
+y09 #csid 0 0 0 12
+y10 ref  three  four  one  zero  eight  seven  six  four  three  five  eight  nine
+y10 hyp   ***    ***  ***   ***   ***    ***   ***   ***   ***    ***   ***    ***
+y10 op     D      D    D     D     D      D     D     D     D      D     D      D 
+y10 #csid 0 0 0 12
+z01 ref  zero  one  two  three  four  five  six  seven  eight  nine
+z01 hyp   ***  ***  ***   ***    ***   ***  ***   ***    ***    ***
+z01 op     D    D    D     D      D     D    D     D      D      D 
+z01 #csid 0 0 0 10
+z02 ref  one  three  five  seven  nine  zero  six  eight  two
+z02 hyp  ***   ***    ***   ***    ***   ***  ***   ***   ***
+z02 op    D     D      D     D      D     D    D     D     D 
+z02 #csid 0 0 0 9
+z03 ref  zero  two  four  six  eight  five  nine  seven  one
+z03 hyp   ***  ***   ***  ***   ***    ***   ***   ***   ***
+z03 op     D    D     D    D     D      D     D     D     D 
+z03 #csid 0 0 0 9
+z04 ref  one  five  nine  two  four  six  zero  seven
+z04 hyp  ***   ***   ***  ***   ***  ***   ***   *** 
+z04 op    D     D     D    D     D    D     D     D  
+z04 #csid 0 0 0 8
+z05 ref  one  three  five  six  zero  eight  nine  two
+z05 hyp  ***   ***    ***  ***   ***   ***    ***  ***
+z05 op    D     D      D    D     D     D      D    D 
+z05 #csid 0 0 0 8
+z06 ref  two  three  nine  four  two  four  five  zero  seven  six  eight
+z06 hyp  ***   ***    ***   ***  ***   ***   ***   ***   ***   ***   *** 
+z06 op    D     D      D     D    D     D     D     D     D     D     D  
+z06 #csid 0 0 0 11
+z07 ref  one  three  two  four  five  three  zero  six  nine  eight  seven
+z07 hyp  ***   ***   ***   ***   ***   ***    ***  ***   ***   ***    *** 
+z07 op    D     D     D     D     D     D      D    D     D     D      D  
+z07 #csid 0 0 0 11
+z08 ref  two  three  five  four  eight  seven  nine  six  one  zero
+z08 hyp  ***   ***    ***   ***   ***    ***    ***  ***  ***   ***
+z08 op    D     D      D     D     D      D      D    D    D     D 
+z08 #csid 0 0 0 10
+z09 ref  nine  eight  seven  six  five  four  three  two  one  zero  seven  one
+z09 hyp   ***   ***    ***   ***   ***   ***   ***   ***  ***   ***   ***   ***
+z09 op     D     D      D     D     D     D     D     D    D     D     D     D 
+z09 #csid 0 0 0 12
+z10 ref  three  four  one  zero  eight  seven  six  four  three  five  eight  nine
+z10 hyp   ***    ***  ***   ***   ***    ***   ***   ***   ***    ***   ***    ***
+z10 op     D      D    D     D     D      D     D     D     D      D     D      D 
+z10 #csid 0 0 0 12
